@@ -5,6 +5,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [1.1.0] - 2024-06-04
+### Changed
+- Added `page` and `size` params to `get_term_parents`, `get_term_children`, and other methods
+  for accessing term relatives
+
 ## [1.0.0] - 2023-12-11
 ### Changed
 - 1.0 release!
@@ -117,7 +122,8 @@ specified with `TypedDict`, rather than a PyDantic object - this is more user-fr
 ### Changed
 - Initial release on PyPI
 
-[Unreleased]: https://github.com/ahida-development/ols-py/compare/1.0.0...master
+[Unreleased]: https://github.com/ahida-development/ols-py/compare/1.1.0...master
+[1.1.0]: https://github.com/ahida-development/ols-py/compare/1.0.0...1.1.0
 [1.0.0]: https://github.com/ahida-development/ols-py/compare/0.9.9...1.0.0
 [0.9.9]: https://github.com/ahida-development/ols-py/compare/0.6.1...0.9.9
 [0.6.1]: https://github.com/ahida-development/ols-py/compare/0.6.0...0.6.1
